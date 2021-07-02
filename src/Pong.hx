@@ -8,6 +8,7 @@ class Pong extends hxd.App {
     var bar : Bar;
     var windowHeight: Int;
     var windowWidth : Int;
+    var horizontalSpace : Int = 50;
 
     //* Debug Variables
     var console : h2d.Console;
@@ -26,7 +27,10 @@ class Pong extends hxd.App {
         console.log(Std.string(windowHeight));
 
         //* Initilize the Bar
-        bar = new Bar(0,0,State.PLAYER);
+
+        var player1x = horizontalSpace;
+        var player1y = windowHeight/2;
+        bar = new Bar(player1x,player1y,State.PLAYER);
     }
     // on each frame
     override function update(dt:Float) {
