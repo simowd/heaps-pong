@@ -1,6 +1,7 @@
 -cp src
 -lib heaps
 -lib hlsdl
+-lib random
 -hl pong.hl
 -main Pong
 -D windowSize=1366x768

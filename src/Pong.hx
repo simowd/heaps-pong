@@ -40,7 +40,7 @@ class Pong extends hxd.App {
 
         var player2x = windowWidth - horizontalSpace;
         var player2y = windowHeight/2;
-        bar2 = new Bar(player2x,player2y,State.CPU);
+        bar2 = new Bar(player2x,player2y,State.PLAYER2);
 
         //* Initilize Ball
         ball = new Ball();
