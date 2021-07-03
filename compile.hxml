@@ -1,6 +1,6 @@
 -cp src
 -lib heaps
 -lib hlsdl
--hl hello.hl
+-hl pong.hl
 -main Pong
 -D windowSize=1366x768
